@@ -11,6 +11,14 @@ body {
     font-weight: 900;
 }
 
+ul, li {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .card {
     width: 800px;
     margin: 0 auto;
@@ -25,13 +33,13 @@ body {
 }
 
 .recipe-link {
-    margin-left: auto;
-    margin-right: 40px;
-    margin-bottom: 30px;
-    padding: 12px;
+    border: solid black;
+    width: 800px;
+    margin-left: -50px;
+    margin: 0 auto;
     background: #ffe9a1;
-    text-align: right;
-    list-style: none;
+    text-align: center;
+    
     font-size: 26px;
 }
 
@@ -40,8 +48,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 20px;
-    margin-left: auto
+    margin: 15px auto;
 }
 
 img {
@@ -49,7 +56,6 @@ img {
     width: 100%;
     border-radius: 50%;
 }
-
 
 a:link {
     color: black;
