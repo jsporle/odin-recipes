@@ -23,7 +23,7 @@ ul, li {
     width: 800px;
     margin: 0 auto;
     border: 9px solid #7f81ff;
-    padding: 8px 15px;
+    padding: 10px 15px;
     text-align: center;
 }
 
@@ -33,18 +33,17 @@ ul, li {
 }
 
 .recipe-link {
-    border: solid black;
-    width: 800px;
-    margin-left: -50px;
+    width: 280px;
     margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
     background: #ffe9a1;
     text-align: center;
-    
     font-size: 26px;
 }
 
 .image {
-    border: 5px solid black;
+    border: 5px dotted #7f81ff;
     width: 200px;
     height: 200px;
     border-radius: 50%;
