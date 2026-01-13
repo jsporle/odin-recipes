@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(https://fonts.gstatic.com/s/raleway/v37/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    background: #fff1c5;
+    font-family: "Raleway", serif;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.card {
+    width: 800px;
+    margin: 0 auto;
+    border: 9px solid #7f81ff;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.recipe-link {
+    width: 500px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: #ffe9a1;
+    text-align: right;
+    list-style: none;
+    font-size: 26px;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background: #7f81ff73;
+    text-decoration: overline #2c2ff5;
+}
+
+a:active {
+    color: black;
+}
