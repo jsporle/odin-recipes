@@ -21,11 +21,14 @@ ul {
 /* set numbered list style */
 ol {
     list-style-position: outside;
-    margin-left: 0px;
-    padding: 0px;
+    margin-left: 5px;
+    padding: 10px;
+    border: solid;
+    text-align: justify;
 }
 
 body {
+    width: 750px;
     font-family: "Merriweather", serif;
     font-size: 18px;
     border: 15px double black;
