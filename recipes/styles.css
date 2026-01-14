@@ -28,7 +28,14 @@ body {
 
 .serving {
     margin-top: 3px;
+    margin-bottom: 0px;
     border: solid;
     font-weight: 900;
 }
 
+.subtitle { 
+    margin-top: 7px;
+    font-size: 36px;
+    font-weight: 900;
+    border: solid;
+}
