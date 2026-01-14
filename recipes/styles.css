@@ -9,12 +9,13 @@
 }
 
 body {
-    width: 750px;
+    width: 700px;
     font-family: "Merriweather", serif;
     font-size: 18px;
     border: 15px double black;
     margin: 15px;
-    padding: 7px
+    padding: 7px;
+    padding-left: 15px;
 }
 
 /* negative margin to balance the body padding */ 
@@ -23,14 +24,15 @@ body {
     margin-bottom: 0px;
     font-size: 60px;
     font-weight: 900;
-    border: solid
+    border: none
     
 }
 
 .serving {
     margin-top: 7px;
     margin-bottom: 0px;
-    border: solid;
+    border-top: solid;
+    border-bottom: solid;
     font-weight: 900;
 }
 
@@ -39,11 +41,9 @@ body {
     margin-bottom: 7px;
     font-size: 36px;
     font-weight: 900;
-    border: solid;
 }
 
 .ingredients {
-    border: solid black;
     margin-top: 0px;
 }
 
@@ -68,32 +68,29 @@ ul {
 ol {
     list-style-position: outside;
     margin-top: 0px;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-bottom: 7px;
     padding: 10px;
     padding-bottom: 0px;
-    border: solid;
     text-align: justify;
     line-height: 30px;
 }
 
 .link {
-    border: solid;
-    text-align: center;
+    text-align: right;
     margin: 0px;
     padding: 0px;
 }
 /* set link style */
 a {
-    margin: auto;
-    border-bottom: solid;
-    border-left: none;
     text-decoration: none;
     color: #000000;
+    font-weight: 100;
     transition: all 0.5s ease-out;
 }
 
 a:hover {
-    color: #fdbaba;
-    letter-spacing: 2px;
+    color: #a50000;
+    border-top: 4px solid #a50000;
+    border-bottom: 4px solid #a50000;
 }
