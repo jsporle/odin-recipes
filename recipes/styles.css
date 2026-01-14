@@ -8,12 +8,21 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* reset bullet point list styles */
+/* set bullet point list style */
 ul {
     list-style-type: none;
     list-style-position: inside;
+    font-size: 20px;
+    font-weight: 900;
     margin-left: 15px;
     padding: 0;
+}
+
+/* set numbered list style */
+ol {
+    list-style-position: outside;
+    margin-left: 0px;
+    padding: 0px;
 }
 
 body {
@@ -43,6 +52,7 @@ body {
 
 .subtitle { 
     margin-top: 7px;
+    margin-bottom: 7px;
     font-size: 36px;
     font-weight: 900;
     border: solid;
@@ -50,4 +60,5 @@ body {
 
 .ingredients {
     border: solid black;
+    margin-top: 0px;
 }
