@@ -1,6 +1,6 @@
 /* get font from google fonts */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-stretch: 100%;
@@ -10,8 +10,7 @@
 
 body {
     background: #fff1c5;
-    font-family: "Raleway", serif;
-    font-style: normal;
+    font-family: "Merriweather", serif;
     font-weight: 900;
 }
 
